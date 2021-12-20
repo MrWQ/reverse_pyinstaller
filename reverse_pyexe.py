@@ -34,7 +34,7 @@ out_dir = exe_file + "_out"  # 输出转换结果目录
 def get_main_file():
     files = os.listdir(extracted_dir)
     for af in files:
-        if af.endswith(".exe.manifest"):
+        if af.endswith(".exe.manifest") and " " not in af:
             return str(af).replace(".exe.manifest", "")
 
 
