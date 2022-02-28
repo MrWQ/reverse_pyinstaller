@@ -1,5 +1,21 @@
 
-pyinstaller打包的exe逆向还原项目
+<h1 align="center">pyinstaller打包的exe逆向还原项目</h1>
+
+<p align="center">
+  <img      src="https://visitor-badge.glitch.me/badge?page_id=https://github.com/MrWQ/reverse_pyinstaller/edit/master/README.md"/>
+  <img      src="https://img.shields.io/github/stars/MrWQ/reverse_pyinstaller"/>  
+  <img      src="https://img.shields.io/github/forks/MrWQ/reverse_pyinstaller"/> 
+  <img      src="https://img.shields.io/github/issues/MrWQ/reverse_pyinstaller"/> 
+<!--   <img      src="https://img.shields.io/github/license/MrWQ/reverse_pyinstaller"/>  -->
+</p>
+<p align="center">
+<img      src="https://img.shields.io/github/commit-activity/m/MrWQ/reverse_pyinstaller"/>
+<img      src="https://img.shields.io/github/last-commit/MrWQ/reverse_pyinstaller"/>
+<img      src="https://img.shields.io/github/repo-size/MrWQ/reverse_pyinstaller"/>
+</p>     
+
+
+**免责声明：仅供学习交流，切勿用于非法用途。**
 
 支持解密使用--key参数加密的exe
 
@@ -13,11 +29,14 @@ python3 reverse_pyexe c:\xx\xx\b.exe
 
 结果输出到项目目录的b.exe_out路径下
 
-
+<br><br>
 
 参考链接： https://xz.aliyun.com/t/10450#toc-11
 
-<br>
+
+
+**程序原理**
+
 以下为精简出的原理，本程序参考部分
 <br>
 
