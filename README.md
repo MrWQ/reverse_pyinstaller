@@ -1,3 +1,4 @@
+
 pyinstaller打包的exe逆向还原项目
 
 支持解密使用--key参数加密的exe
@@ -14,9 +15,12 @@ python3 reverse_pyexe c:\xx\xx\b.exe
 
 
 
-参考https://xz.aliyun.com/t/10450#toc-11
+参考链接： https://xz.aliyun.com/t/10450#toc-11
 
-**3. pyinstaller -F 参数反编译**
+<br>
+以下为精简出的原理，本程序参考部分
+<br>
+** 3. pyinstaller -F 参数反编译 **
 
 注意：这里的exe文件反编译指的是对pyinstraller打包的文件进行反编译
 
