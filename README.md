@@ -20,7 +20,8 @@ python3 reverse_pyexe c:\xx\xx\b.exe
 <br>
 以下为精简出的原理，本程序参考部分
 <br>
-** 3. pyinstaller -F 参数反编译 **
+
+**3. pyinstaller -F 参数反编译**
 
 注意：这里的exe文件反编译指的是对pyinstraller打包的文件进行反编译
 
